@@ -19,6 +19,7 @@ def find_min_coins(amount):
                 dp[i] = dp[i - c] + 1
     if dp[amount] == float('inf'):
         return {}
+    
     # Реконструкція
     result = {}
     remaining = amount
