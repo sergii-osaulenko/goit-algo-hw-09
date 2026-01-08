@@ -1,4 +1,4 @@
-coins = [50, 25, 10, 5, 2, ]
+coins = [50, 25, 10, 5, 2, 1]
 
 def find_coins_greedy(amount):
     result = {}
