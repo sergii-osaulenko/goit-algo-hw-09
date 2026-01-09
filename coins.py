@@ -59,7 +59,7 @@ if __name__ == "__main__":
     print("-" * 20)
 
     # Тест на великій сумі для порівняння часу
-    large_sum = 5000 # Це значення можна змінити на 10000 або більше
+    large_sum = 10000 # Це значення можна змінити на 100000 або більше
     print(f"Тестування на сумі: {large_sum}")
     
     time_greedy = timeit.timeit(lambda: find_coins_greedy(large_sum), number=100)
